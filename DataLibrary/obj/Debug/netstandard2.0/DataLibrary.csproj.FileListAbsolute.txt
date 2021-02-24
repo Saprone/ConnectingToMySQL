@@ -7,3 +7,12 @@ C:\Users\Bas\source\repos\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0
 C:\Users\Bas\source\repos\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Bas\source\repos\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
 C:\Users\Bas\source\repos\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.deps.json
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\bin\Debug\netstandard2.0\DataLibrary.pdb
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csprojAssemblyReference.cache
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.AssemblyInfo.cs
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.dll
+C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\DataLibrary\obj\Debug\netstandard2.0\DataLibrary.pdb

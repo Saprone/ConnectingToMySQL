@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj": {}
+    "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj": {
+    "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj",
+        "projectUniqueName": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj",
         "projectName": "BlazorServer",
-        "projectPath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj",
+        "projectPath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\BlazorServer\\BlazorServer.csproj",
         "packagesPath": "C:\\Users\\Bas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\BlazorServer\\obj\\",
+        "outputPath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\BlazorServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj": {
-                "projectPath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj"
+              "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj": {
+                "projectPath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\Bas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bas\\AppData\\Roaming\\NuGet\\NuGet.Config",

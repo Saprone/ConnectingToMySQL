@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gmM2wmRCfpOu9rDuIsqFjsdYXYY2udhVeeH+6t/mnNYZ1EFthbJBXlJ5usURhNGbdBJEEswDgBSICKay76RsSA==",
+  "dgSpecHash": "FIgYKesOgaYXpX3mkJqFCN4kgDBa6Iaiq2UfO1nnIcjLot5nv9yx4CZcko7IRcJjKbX9E8UizJUcPbh9mey6hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bas\\source\\repos\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Bas\\Documents\\GitHub\\ConnectingToMySQL\\DataLibrary\\DataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bas\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Bas\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
