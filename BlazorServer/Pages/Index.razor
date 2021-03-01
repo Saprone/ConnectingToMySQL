@@ -1,5 +1,32 @@
 ﻿@page "/"
 
-<h1>Homepage</h1>
+@using DataLibrary
+@using BlazorServer.Models
+@using Microsoft.Extensions.Configuration
+@inject IDataAccess _data
+@inject IConfiguration _config
 
-<p>This is the homepage.</p>
+@if (evidence == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var e in evidence)
+    {
+        <p>
+            @e.Name
+        </p>
+    }
+}
+
+@code {
+    List<EvidenceModel> evidence;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "SELECT * FROM evidancetracker.evidence";
+
+        evidence = await _data.LoadData<EvidenceModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+    }
+}

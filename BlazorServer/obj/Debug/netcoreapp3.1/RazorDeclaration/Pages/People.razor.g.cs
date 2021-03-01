@@ -138,7 +138,7 @@ using Microsoft.Extensions.Configuration;
 
     protected override async Task OnInitializedAsync()
     {
-        string sql = "select * from people";
+        string sql = "select * from ytdemo.people";
 
         people = await _data.LoadData<PersonModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
     }

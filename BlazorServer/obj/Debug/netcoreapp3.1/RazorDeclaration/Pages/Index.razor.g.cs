@@ -75,6 +75,27 @@ using BlazorServer.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\BlazorServer\Pages\Index.razor"
+using DataLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\BlazorServer\Pages\Index.razor"
+using BlazorServer.Models;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\BlazorServer\Pages\Index.razor"
+using Microsoft.Extensions.Configuration;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -83,6 +104,23 @@ using BlazorServer.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 23 "C:\Users\Bas\Documents\GitHub\ConnectingToMySQL\BlazorServer\Pages\Index.razor"
+       
+    List<EvidenceModel> evidence;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string sql = "SELECT * FROM evidancetracker.evidence";
+
+        evidence = await _data.LoadData<EvidenceModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IConfiguration _config { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IDataAccess _data { get; set; }
     }
 }
 #pragma warning restore 1591
